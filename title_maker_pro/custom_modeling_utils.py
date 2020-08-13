@@ -17,7 +17,7 @@
 
 import torch
 from torch.nn import functional as F
-from transformers.modeling_utils import top_k_top_p_filtering, calc_banned_ngram_tokens
+from transformers.generation_utils import top_k_top_p_filtering, calc_banned_ngram_tokens
 
 
 @torch.no_grad()
