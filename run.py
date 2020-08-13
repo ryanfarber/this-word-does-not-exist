@@ -12,6 +12,8 @@ word_generator = WordGenerator(
 
 
 # word from scratch
+# print(word_generator.generate_word().word)
+
 print(word_generator.generate_word())
 
 # definition for a made up word
